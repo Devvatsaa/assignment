@@ -21,6 +21,7 @@ const ExamCard: React.FC<ExamCardProps> = ({
   onButtonClick,
   extraInfo,
 }) => {
+  console.log(syllabusLink)
   return (
     <div className=" bg-gray-50 border border-gray-300 rounded-lg shadow-md">
       {/* Header */}

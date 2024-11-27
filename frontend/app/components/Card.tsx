@@ -28,6 +28,7 @@ const Card: React.FC<CardProps> = ({
   expandedContent,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  console.log(buttonAction)
   const detailIcons = [
     <BsQuestionCircle key="questions" />,
     <BsBook key="marks" />,
